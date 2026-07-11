@@ -1,5 +1,9 @@
 # Top 100 Claude Code Recipes for Knowledge Workers
 
+[![Skill Crossroads](https://skillcrossroads.com/api/badge/sgharlow/claude-code-recipes.svg)](https://skillcrossroads.com/s/sgharlow/claude-code-recipes)
+
+Claude Code artifacts graded by [Skill Crossroads](https://skillcrossroads.com) — click the badge for the evidence-cited scorecard.
+
 **Your Complete Guide to AI-Powered Productivity**
 
 *Version 1.0 — December 2025*
@@ -20,6 +24,21 @@ Whether you're drafting emails, analyzing data, preparing presentations, or mana
 >
 > **[Get the Premium Collection →](https://learningai365.lemonsqueezy.com/buy/703305ce-b87f-4ccc-bf8c-b629c3116f7b?utm_source=github&utm_medium=readme&utm_campaign=launch)**
 
+
+## Installable skills (new)
+
+Three of the most-used recipes now ship as real Claude Code **Skills** you can drop into
+`~/.claude/skills/` (or a project's `.claude/skills/`) — no prompt copying:
+
+| Skill | From recipe | What it does |
+|-------|-------------|--------------|
+| [`meeting-notes-to-actions`](skills/meeting-notes-to-actions/SKILL.md) | #1 | Raw notes → summary, owner/deadline table, follow-up drafts |
+| [`summarize-document`](skills/summarize-document/SKILL.md) | #4 | Long document → role-aware, reference-cited digest |
+| [`research-synthesis`](skills/research-synthesis/SKILL.md) | #7 | Many sources → themes, contradictions, gaps, bottom line |
+
+Each skill includes evals and is quality-graded — click the badge above for the scorecard.
+
+---
 
 ## Getting Started
 
