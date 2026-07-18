@@ -41,6 +41,8 @@ Three of the most-used recipes now ship as real Claude Code **Skills** you can d
 
 Each skill includes evals and is quality-graded — click the badge above for the scorecard.
 
+> 📬 **Follow the work:** [get the free Claude Code Quick Wins Kit](https://learningai365.kit.com/f27ea7c05a) — new recipes, tools, and honest benchmarks, one list.
+
 ## The system behind these recipes
 
 The recipes are the **what**. The rest of the toolchain is how the same work ships with
