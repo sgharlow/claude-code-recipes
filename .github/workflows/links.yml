@@ -1,0 +1,17 @@
+name: Link check
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  mdlink-check:
+    name: Navigation link check (dogfood @sgharlow/mdlink-check)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Check navigation-surface links
+        run: npx -y @sgharlow/mdlink-check README.md SUMMARY.md GETTING-STARTED.md FAQ.md CONTRIBUTING.md GLOSSARY.md
