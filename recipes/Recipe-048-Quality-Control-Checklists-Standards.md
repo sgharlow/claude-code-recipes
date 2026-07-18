@@ -754,3 +754,7 @@ This recipe's core pattern—**define quality criteria → create verification s
 ---
 
 *Recipe #48 of 100 in the Claude Code Knowledge Worker Recipe Collection*
+
+---
+
+**Related tooling:** the verification philosophy this recipe applies by hand is implemented for AI-assisted code in [ai-control-framework](https://github.com/sgharlow/ai-control-framework) — deployment-readiness scoring and evidence-backed gates.

@@ -58,12 +58,26 @@ All recipes in this collection follow these standards:
 
 ---
 
+## Submitting a New Recipe
+
+New recipes are welcome. The path:
+
+1. **Open a "recipe proposal" issue first** — one paragraph: the recurring task, who has it,
+   and the outcome. This avoids duplicate work before you write anything.
+2. On a 👍 from a maintainer, **submit a PR** with one file:
+   `recipes/Recipe-XXX-Your-Title.md`, following the structure of any existing recipe
+   (Problem → Outcome → When to Use → Steps with a copy-ready prompt → Troubleshooting →
+   Measuring Success). Real examples beat hypothetical ones.
+3. Recipes that ship a **Skill** (`skills/<name>/SKILL.md` + at least one eval) are graded
+   with [Skill Crossroads](https://skillcrossroads.com) before merge — include your grade in
+   the PR (`npx skillcrossroads ./skills/<name>`). B or better merges; below that we'll help
+   you fix the findings.
+
 ## Not Accepting
 
-To maintain quality and consistency, we are **not** currently accepting:
+To maintain quality and consistency, we are **not** accepting:
 
-- Direct pull requests with new recipes (contact us first)
-- Recipes requiring specialized technical knowledge
+- Recipes requiring specialized technical knowledge beyond a general knowledge worker's reach
 - Content that duplicates existing recipes
 - Promotional or commercial content
 
