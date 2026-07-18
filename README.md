@@ -33,10 +33,27 @@ Three of the most-used recipes now ship as real Claude Code **Skills** you can d
 | Skill | From recipe | What it does |
 |-------|-------------|--------------|
 | [`meeting-notes-to-actions`](skills/meeting-notes-to-actions/SKILL.md) | #1 | Raw notes → summary, owner/deadline table, follow-up drafts |
+| [`weekly-status-report`](skills/weekly-status-report/SKILL.md) | #2 | Scattered weekly updates → one-page report with severity-rated blockers |
 | [`summarize-document`](skills/summarize-document/SKILL.md) | #4 | Long document → role-aware, reference-cited digest |
 | [`research-synthesis`](skills/research-synthesis/SKILL.md) | #7 | Many sources → themes, contradictions, gaps, bottom line |
+| [`data-cleanup`](skills/data-cleanup/SKILL.md) | #9 | Messy tabular data → analysis-ready, with a full transformation log |
+| [`qc-checklist`](skills/qc-checklist/SKILL.md) | #48 | Process description → pass/fail QC checklist traced to real failure modes |
 
 Each skill includes evals and is quality-graded — click the badge above for the scorecard.
+
+## The system behind these recipes
+
+The recipes are the **what**. The rest of the toolchain is how the same work ships with
+verification instead of vibes:
+
+| | Repo | Role |
+|---|---|---|
+| **How** | [ai-control-framework](https://github.com/sgharlow/ai-control-framework) | The verification methodology: deployment-readiness scoring, evidence-backed gates |
+| **Scale** | [orchestra-lite](https://github.com/sgharlow/orchestra-lite) | Running parallel AI agents on real repos without losing control |
+| **Enforcement** | [ai-pr-bot](https://github.com/sgharlow/ai-pr-bot) | The gates, run where the code lands: at PR time |
+| **Grade** | [skillcrossroads](https://github.com/sgharlow/skillcrossroads) | Evidence-cited scoring for the skills themselves — live at [skillcrossroads.com](https://skillcrossroads.com) |
+
+One rule ties them together: **no claim without a check you can run.**
 
 ---
 

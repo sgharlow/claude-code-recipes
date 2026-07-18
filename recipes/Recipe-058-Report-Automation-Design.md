@@ -963,3 +963,7 @@ This recipe's core pattern—**document current state → design automation → 
 ---
 
 *Recipe #58 of 100 in the Claude Code Knowledge Worker Recipe Collection*
+
+---
+
+**Related tooling:** when a report pipeline grows past one person, [orchestra-lite](https://github.com/sgharlow/orchestra-lite) runs the parallel-agent version of this workflow, and [ai-pr-bot](https://github.com/sgharlow/ai-pr-bot) enforces the checks at PR time.

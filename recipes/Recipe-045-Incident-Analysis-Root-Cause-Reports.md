@@ -771,3 +771,7 @@ This recipe's core pattern—**document timeline → analyze root causes → ide
 ---
 
 *Recipe #45 of 100 in the Claude Code Knowledge Worker Recipe Collection*
+
+---
+
+**Related tooling:** the verification philosophy this recipe applies by hand is implemented for AI-assisted code in [ai-control-framework](https://github.com/sgharlow/ai-control-framework) — deployment-readiness scoring and evidence-backed gates.

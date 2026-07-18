@@ -927,3 +927,7 @@ This recipe's core pattern—**capture process knowledge → structure in action
 ---
 
 *Recipe #42 of 100 in the Claude Code Knowledge Worker Recipe Collection*
+
+---
+
+**Related tooling:** the verification philosophy this recipe applies by hand is implemented for AI-assisted code in [ai-control-framework](https://github.com/sgharlow/ai-control-framework) — deployment-readiness scoring and evidence-backed gates.
